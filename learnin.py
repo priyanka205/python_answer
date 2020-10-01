@@ -567,19 +567,19 @@ for f in fruits[1]:
         
 # else:
 #     ("please enter posative number.")
-n1,n2 = 1,2
-fib_limit = int(input("fibonacci series upto: " ))
-if fib_limit>0:
-    if fib_limit==1:
-        print(n1)
-    else:
-        for i in range(fib_limit):
-            print(n1)
-            nth = n1 + n2
-            n1 = n2
-            n2 = nth
-else:
-     print("please enter  posative number.")
+# n1,n2 = 1,2
+# fib_limit = int(input("fibonacci series upto: " ))
+# if fib_limit>0:
+#     if fib_limit==1:
+#         print(n1)
+#     else:
+#         for i in range(fib_limit):
+#             print(n1)
+#             nth = n1 + n2
+#             n1 = n2
+#             n2 = nth
+# else:
+#      print("please enter  posative number.")
 
         
 
