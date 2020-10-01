@@ -11,9 +11,9 @@
 
 # #QA2:
 
-# #firstname = input("Priyanka")
-# #lastname = input("Shrestha")
-# #print( lastname + " " + firstname)
+firstname = input("Priyanka")
+lastname = input("Shrestha")
+print( lastname + " " + firstname)
 
 # #QA3:
 
