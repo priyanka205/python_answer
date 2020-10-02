@@ -18,7 +18,7 @@ for x in numbers:
    if x == 237:
       break
    elif x % 2 == 0:# % returns the reminder
-#       print(x)
+       print(x)
 
 # to get numbers that are even and are less than 237
 for x in numbers:
