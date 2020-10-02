@@ -1,0 +1,1 @@
+ Write a Python program to divide a path on the extension separator.
