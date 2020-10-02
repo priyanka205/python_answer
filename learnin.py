@@ -567,6 +567,8 @@ for f in fruits[1]:
         
 # else:
 #     ("please enter posative number.")
+
+#by using for loop:
 # n1,n2 = 1,2
 # fib_limit = int(input("fibonacci series upto: " ))
 # if fib_limit>0:
