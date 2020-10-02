@@ -10,7 +10,7 @@
 a = 2
 b = 2
 c = 4
-output = 0
+# output = 0
 
 if a == b:
    print(0)
