@@ -583,7 +583,7 @@ for f in fruits[1]:
 #             n1 = n2
 #             n2 = nth
 # else:
-#      print("please enter  posative number.")
+#      print("please enter posative number.")
 
         
 
