@@ -2,7 +2,7 @@
 
 # Sample filename : abc.java
 
-# Output : java
+Output : java
 
 f_name = "abc.java"
 n = f_name.split(".")
