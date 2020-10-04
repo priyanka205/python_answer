@@ -553,13 +553,180 @@ for f in fruits[1]:
 
 #  Write a Python program to convert height (in feet and inches) to centimeters. 
 
-feet = int(input("Enter feet: "))
-inches = int(input("Enter inches: "))
-centi = feet*30.48 + inches*2.54
-print(centi)
+# feet = int(input("Enter feet: "))
+# inches = int(input("Enter inches: "))
+# centi = feet*30.48 + inches*2.54
+# print(centi)
+
+# Write a Python program to calculate the hypotenuse of a right angled triangle.
+
+
+# a = int(input("Given number:"))
+# b = int(input("Given number: "))
+# c = (a**2 + b**2)**0.5
+# print(c)
+
+#  Write a Python program to calculate the sum of the digits in an integer.
+
+# x = int(input("Given number:"))
+# y = int(input("Given number: "))
+# z = x + y
+# print(z)
+# print(type(z))
+# n = input("Enter a number: ")
+# sum = 0
+# for i in n:
+#     sum+=int(i)
+# print(sum)
+
+# Write a Python program to test whether all numbers 
+# of a list is greater than a certain number.
+
+# my_list = [5,10,45,75,78,15]
+# certain_number = int(input("Enter a number:"))
+# for i in my_list:
+#     if i<certain_number:
+#         print(f"{certain_number} is greater than {i}")
+#         break
+# else:
+#      print("All numbers given in list is greater than input")
+# Write a Python program to swap two variables.
+
+# a = 10
+# b = 5
+# a = b 
+# b = a
+# print(a)
+# print(b)
+
+# Write a Python program to check if a string is numeric.
+
+# my_list = u"125";
+# print(my_list.isnumeric())
+
+
+#  Write a Python program to test whether a passed letter is a vowel or not.
+# list = ("a","e","i","o","u")
+# ch = input("given value: ")
+# for i in list:
+#     if ch == i or ch == i.upper():
+#         print(ch, "this is a vowel")
+#         break
+#     # if ch == i.upper():
+    #     print("this is a vowel")
+    #     break
+# else:
+#     print(ch, "this is not a vowel")  
+# Write a Python program to check whether a specified value is contained in a group of values. (     Doubt)
+# Test Data :
+# 3 -> [1, 5, 8, 3] : True
+# -1 -> [1, 5, 8, 3] : False
+
+# data = [1, 5, 8, 3]
+# for i in data:
+#     if i == 7:
+#         print("True")
+#         break
+# else:
+#     print("false")
 
 
 
+
+# data = [1, 5, 8, 3]
+# n = int(input("Enter number: "))
+# if n in data:
+#     print("True")
+# else:
+#     print("False")
+
+
+
+numbers = [ 386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+    958,743, 527 ]
+for x in numbers:
+    if x == 237:
+        break
+    elif x % 237 == 0:
+         print(x)
+       
+    
+        
+       
+    
+ 
+
+
+
+        
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
