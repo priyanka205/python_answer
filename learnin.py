@@ -483,120 +483,80 @@ for f in fruits[1]:
 #c =a+b
 #print(a+b)
 
+# print(" Twinkle, twinkle, little star,")
+# print("\t How I wonder what you are!")
+# print("\t\t  Up above the world so high,")
+# print("\t\t Like a diamond in the sky")
+# print("Twinkle, twinkle, little star,")
+# print("\t How I wonder what you are")
 
-# num = [30,20,10,12,15,46,45]
-# minimum = 100000000
-# for i in num:
-#     if minimum>i:
-#         minimum=i
-# print(minimum)
-
-# how to get maxmium value:
-
-# num = [10,12,15,46,45]
-# maximum = 0
-# for i in num:
-#     if maximum<i:
-#         maximum=i
-# print(maximum)  
 
-# Palindrome:when we see from left and right side we could see the same letter or number.
-# eg:racecar
+# Write a Python program which accepts the user's first and last name and print them in
+#  reverse order with a space between them.
 
- 
+# first_name = input("Enter a name: ")
+# last_name = input("Enter a name: ")
+# reverse_name = last_name + " " + first_name
+# print(reverse_name)
 
-# Palindrome in string:
-# s = "racecar"
-# rev = s[::-1]
-# if s == rev:
-#   print(f"{s} is palindrome.")
-# else:
-#   print(f"{s} is not palindrome.")
 
+# 3) Write a Python program to accept a filename from the user and print the extension of that. 
+# Sample filename : abc.java
+# Output : java
 
-# We can use through input too:
-# s = input("lets check: ")
-# rev = s[::-1]
-# if s == rev:
-#     print(f"{s} is a palindrome")
-# else:
-#     print(f"{s} is not palindrome")
 
-# palindrome in number or int: 
-# first we need to change int to str 
+# filename = "learning.py"
+# sample = filename.split(".")
+# x = sample[-1]
+# print(x)
 
-# n = int(input("Enter a number:"))
-# sn = str(n)
-# rev = sn[::-1]
-# rev_n = int(rev)
-# if n== rev_n:
-#     print(f"{n} is a palindrome")
-# else:
-#     print(f"{n} is not palindrome")
 
 
-# # Prime number:
 
-# lower_limit = int(input("Enter lower limit: "))
-# upper_limit = int(input("Enter upper limit: "))
-# prime_numbers = []
-# for num in range(lower_limit,upper_limit+1):
-#     if num>1:#if we need to test with negative number
-#         for i in range(2,num):
-#             if (num%i)==0:
-#                 break
-#         else:
-#             prime_numbers.append(num)
 
-# print(prime_numbers)
 
-# Fibonacci Numbers:
-# n1,n2 = 1,2
-# count = 0
-# fib_limit = int(input("fibonacci series upto: "))
-# if fib_limit>0:#to check negative
-#     if fib_limit==1:
-#         print(n1)
-#     else:
-#         while count<fib_limit:
-#             print(n1)
-#             nth = n1 + n2
-#             n1 = n2
-#             n2 = nth
-#             count += 1
-        
-# else:
-#     ("please enter posative number.")
+# 4) Write a Python program to display the first and last colors from the following list. 
 
-#by using for loop:
+# color_list = ["Red","Green","White" ,"Black"]
+# # my_list = color_list[0],color_list[-1]
+# # print(my_list)
 
+# print(color_list[0],color_list[-1])
 
-# n1,n2 = 1,2
-# fib_limit = int(input("fibonacci series upto: " ))
-# if fib_limit>0:
-#     if fib_limit==1:
-#         print(n1)
-#     else:
-#         for i in range(fib_limit):
-#             print(n1)
-#             nth = n1 + n2
-#             n1 = n2
-#             n2 = nth
-# else:
-#      print("please enter posative number.")
 
-        
 
+#  Write a Python program to concatenate all elements in a list into a string and return it.
 
+# My_family = ["Priyanka","Priya","Bishwa","Menanka"]
+# my_list = " ".join(My_family)
+# print(my_list)
+# print(type(my_list))
 
 
 
 
+#  Write a Python program that will accept the base and height of a triangle and compute the area.
 
+# height = int(input("Enter height: "))
+# base = int(input("give base:"))
+# area = height*base*0.5
+# print(area)
 
+# Write a Python program to solve (x + y) * (x + y). 
+# Test Data : x = 4, y = 3
+# Expected Output : (4 + 3) ^ 2) = 49
 
+# x = 3
+# y = 3
+# z = (x + y)**2
+# print(z)
 
+#  Write a Python program to convert height (in feet and inches) to centimeters. 
 
+feet = int(input("Enter feet: "))
+inches = int(input("Enter inches: "))
+centi = feet*30.48 + inches*2.54
+print(centi)
 
 
 
@@ -608,35 +568,6 @@ for f in fruits[1]:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
