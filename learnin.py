@@ -612,7 +612,7 @@ for f in fruits[1]:
 #     if ch == i or ch == i.upper():
 #         print(ch, "this is a vowel")
 #         break
-#     # if ch == i.upper():
+    # # if ch == i.upper():
     #     print("this is a vowel")
     #     break
 # else:
@@ -642,21 +642,153 @@ for f in fruits[1]:
 
 
 
-numbers = [ 386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
-    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
-    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
-    958,743, 527 ]
-for x in numbers:
-    if x == 237:
-        break
-    elif x % 237 == 0:
-         print(x)
+# numbers = [ 386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#     958,743, 527 ]
+# for x in numbers:
+#     if x == 237:
+#         break
+#     elif x % 237 == 0:
+#          print(x)
        
-    
-        
+# write a Python program to divide a path on the extension separator.
+# path = ("priyanka.py")
+# my_path = path.split(".")
+# print(my_path[-1])
        
-    
- 
+# filename = "https://www.practice.com.py"
+# my_file = filename.split(".")
+# new = my_file[0:-1]
+# req = "." .join(new)
+# print(req)
+# Write a Python program to check if a number is positive, negative or zero.
+
+# check_num = int(input("Enter number: "))
+# if check_num > 0:
+#     print("it is posative")
+# elif check_num == 0:
+#     print("its a zero")
+# else:
+#     print("its a negative")
+
+# e a Python program to sum of three given integers. However, if two values are equal sum will be zero.
+
+# a = 5
+# b = 5
+# c = 7
+
+
+# a = 4
+# b = 1
+# c = 8
+
+# if a == b:
+#    print(0)
+# elif b == c:
+#    print(0)
+# elif c == a:
+#    print(0)
+# else:
+#    print(a+b+c)  
+
+# n = int(input("Enter a number: "))
+# for i in range(0,n):
+#     for j in range(i+1):
+#         print("*", end = " ")
+#     print("\n")
+
+
+
+# for i in 'abc':
+#     print(i)
+#     for j in '123':
+#         print(j)
+#     for k in r"&#@":
+#         print(k)
+
+# def my_function():
+#     print("My name is Indraman")
+# # my_function()
+
+# def my_function(fname):
+#     print(fname + " Gopali")
+# my_function("Indra Man")
+# my_function("Chandrakala")
+# my_function("Ivan")
+
+# def my_function(fname,lname,Age):
+#     print(fname + " " + lname + " " + Age)
+# my_function("Priyanka","Shrestha","Thirty")
+
+# def my_function(**kid):
+#     print("My youngest child  name is " + kid["fname"])
+# my_function(fname="Ivan",lname=("shrestha"))
+
+# def my_function(child1,child2,child3):
+#     print("Mummy's favourite child is " + child1)
+# my_function(child2="Priya",child3="Priyanka",child1="Bimej.")
+
+# def my_function(country= "Nepal"):
+#     print("I am from "+ country)
+# my_function("USA")
+# my_function
+
+
+# def my_function(food):
+#   for x in food:
+#     print(x)
+
+# fruit = ["apple", "banana", "cherry"]
+
+# my_function(fruit)
+
+# def my_function(x):
+#     return x * 5
+# print(my_function(5))
+
+# def my_function():
+#     pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
