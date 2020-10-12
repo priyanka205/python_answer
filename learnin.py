@@ -750,8 +750,37 @@ for f in fruits[1]:
 # def my_function():
 #     pass
 
+# x =10
+# def add(y):
+#     global x
+#     x =20
+#     print(x+y)
+# add(5)
+# print(x)
 
+# x = 10
+# y = 20
+# z = 30
 
+# def add(p):
+#     global x, y, z
+#     x = 1
+#     y = 2
+#     z = 3
+#     print(x+y+z+p)
+# add(5)
+# print(x)
+# print(y)
+# print(z)
+
+def greet():
+    print("HEllo priyanka")
+    greet()
+greet()
+
+import sys
+sys.setrecursionlimit(2000)
+print(sys.getrecursionlimit())
 
 
 
