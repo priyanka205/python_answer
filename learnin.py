@@ -773,14 +773,170 @@ for f in fruits[1]:
 # print(y)
 # print(z)
 
-def greet():
-    print("HEllo priyanka")
-    greet()
-greet()
+# def greet():
+#     print("HEllo priyanka")
+#     greet()
+# greet()
 
-import sys
-sys.setrecursionlimit(2000)
-print(sys.getrecursionlimit())
+# import sys
+# sys.setrecursionlimit(2000)
+# print(sys.getrecursionlimit())
+
+
+# n = round(20.5623,3)
+# print(n)
+# import math
+# num = 256.2565666
+# nu = math.ceil(num)
+# print(nu)
+
+# x = 255.454548
+# n = math.floor(x)
+# print(n)
+
+# import random
+# n = random.randrange(25)
+# print(n)
+
+# import random
+# n = random.shuffle(25,5,46,4545)
+# print(n)
+
+# import time
+# t = time.localtime()
+# current_time = time.strftime("%H:%M:%S", t)
+# print(current_time)
+
+
+
+
+
+
+
+
+
+
+
+# Write a Python program to count the number of
+#  even and odd numbers from a series of numbers.
+
+# my_list = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11) 
+# number_odd = 0
+# number_even = 0
+# for i in my_list:
+#     if not i % 2==0:
+#     	number_odd+=1
+#     else:
+#         number_even+=1
+        
+            
+# print(number_even,number_odd)
+
+
+# Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+# Note : Use 'continue' statement.
+# Expected Output : 0 1 2 4 5
+
+# for i in range(7):
+#     if i==3 or i==6:
+#         continue
+#     print(i)
+
+# Write a Python program which accepts a sequence of comma separated 4 digit binary
+#  numbers as its input and print the numbers that are divisible by 5 in a comma
+#   separated sequence.
+# Sample Data : 0100,0011,1010,1001,1100,1001
+# Expected Output : 1010
+
+
+# my_numbers = (input("Enter a number: "))
+# my_list = my_numbers.split(",")
+# for i in my_list:
+#     j = int(i)
+#     if j%5==0:
+#         print(j)
+
+
+# Write a Python program to check the validity of password input by users. 
+# Validation :
+# At least 1 letter between [a-z] and 1 letter between [A-Z].
+# At least 1 number between [0-9].
+# At least 1 character from [$#@].
+# Minimum length 6 characters.
+# Maximum length 16 characters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
