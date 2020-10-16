@@ -3,3 +3,13 @@
 # Example:
 # getMiddleThreeChars("JhonDipPeta") → "Dip"
 # getMiddleThreeChars("Jasonay") → "son"
+
+
+def my_char(x):
+
+   return x[(len(x)-2)//2:(len(x)+3)//2]
+
+print(my_char("JhonDipPeta"))
+
+print(my_char("Jasonay"))
+
