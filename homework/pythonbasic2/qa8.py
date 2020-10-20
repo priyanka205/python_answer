@@ -4,10 +4,13 @@
 # Total counts of chars, digits,and symbols Chars = 8 Digits = 3 Symbol = 4
 
 input_str =  "P@#yn26at^&i5ve"
+
 letter_count = 0
+
 digit_count = 0
 special_count = 0
 for x in input_str:
+
     if x.islower() or x.isupper():
          letter_count+=1
     elif x.isnumeric():

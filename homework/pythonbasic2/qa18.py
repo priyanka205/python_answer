@@ -11,7 +11,8 @@
 myfirst_set  = {23, 42, 65, 57, 78, 83, 29}
 mysecond_set = {57, 83, 29, 67, 73, 43, 48}
 my_list = myfirst_set.intersection(mysecond_set) #intersection
-print(my_list)
+
+
 for x in my_list:
   myfirst_set.remove(x)
 print(myfirst_set)
