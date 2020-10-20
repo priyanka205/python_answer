@@ -24,13 +24,7 @@ print(duplicate)
 
 
 
-# sampleList = list(set(samplelist))
-# print("unique list", samplelist)
 
-# tuple = tuple(samplelist)
-# print("tuple ", tuple)
-
-# print("Minimum number is: ", min(tuple))
 
 
  
