@@ -1,8 +1,12 @@
 
 
-20) Given a string and an int n, remove characters from string starting
- from zero up to n and return a new string.
+# 20) Given a string and an int n, remove characters from string starting
+#  from zero up to n and return a new string.
 
-Example InputString: "HelloWorld", InputNumber: 5
+# Example InputString: "HelloWorld", InputNumber: 5
 
-Example OutputString: "World"
+# Example OutputString: "World"
+
+def removeChars(str, n):
+  return str[n:]
+print(removeChars("HelloWorld", 5))

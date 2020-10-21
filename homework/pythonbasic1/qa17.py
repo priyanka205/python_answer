@@ -1,5 +1,7 @@
 # Accept string from the user and 
 # display only those characters which are present at an even index.
+x = input("Enter a str: ")
+y = input ("Enter a str: ")
 
 def my_str(str):
   result = "" 
@@ -8,5 +10,5 @@ def my_str(str):
       result = result + str[i]
   return result
 
-print(my_str('hari'))
-print(my_str('sita'))
+print(my_str(str))
+

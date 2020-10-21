@@ -4,18 +4,18 @@
 
 
 
-my_list1 = int(input("Enter a number: "))
+my_num1 = int(input("Enter a number: "))
 
-my_list2 = int(input("Enter a number: "))
+my_num2 = int(input("Enter a number: "))
 
-my_list3 = int(input("Enter a number: "))
+my_num3 = int(input("Enter a number: "))
 
-my_list4 = my_list1+my_list2+my_list3
+my_num4 = my_num1+my_num2+my_num3
 
-if my_list1 == my_list2 == my_list3:
-    my_list4 = my_list4 * 3
+if my_num1 == my_num2 == my_num3:
+    my_num4 = my_num4 * 3
 
-print(my_list4)
+print(my_num4)
 
 
 

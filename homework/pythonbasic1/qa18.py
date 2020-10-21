@@ -3,8 +3,15 @@
 
 # [88,55,92,4,45,25,31,97,85]
 
-my_numbers = [88,55,92,4,45,25,31,97,85]
-for i in  (my_numbers+1):
-    print(i + my_numbers)
+my_number = [88,55,92,4,45,25,31,97,85]
+prev_number = 0
+for n, data in enumerate(my_number):
+    if n>0:
+        sum = prev_number+data
+        print(sum)
+    else:
+        prev_number = data
+        continue
+    prev_number = data
 
 

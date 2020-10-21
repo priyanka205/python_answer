@@ -1,11 +1,11 @@
 
 #Write a Python program to input a number, if it is not a number generate an error message.
  
-my_number = int(input("Enter a number: "))
-print(my_number)
-breakpoint
-if my_number is  not my_number:
-    print("please enter a number")
+my_number = (input("Enter a number: "))
+if my_number .isdigit():
+    print(int(my_number))
+else:
+    print("Enter a number")
 
 
  
