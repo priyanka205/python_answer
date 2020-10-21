@@ -9,7 +9,8 @@ List : ['3', ' 5', ' 7', ' 23']
 Tuple : ('3', ' 5', ' 7', ' 23')
 '''
 
-my_nums = input('give a string of comma separated numbers:' )
-print(my_nums)
-my_list = my_nums.split(',')
-print(my_list)
+values = input("Input some comma seprated numbers : ")
+list = values.split(",")
+tuple = tuple(list)
+print(list)
+print(tuple)
