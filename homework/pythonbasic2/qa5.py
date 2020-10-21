@@ -2,7 +2,7 @@
 
 # Example:
 
-# Input: "Chrisdem", amNewStringI
+# Input: "Chrisdem", IamNewString
 
 # Output: "ChrIamNewStringisdem"
 
