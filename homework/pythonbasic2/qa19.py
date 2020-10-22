@@ -13,4 +13,9 @@
 # First Set  set()
 # Second Set  {67, 73, 43, 48, 83, 57, 29}
 
-firstSet  = {57, 83, 29}
+firstSet  = {27, 43, 34}
+SecondSet = {34, 93, 22, 27, 43, 53, 48}
+if firstSet.issubset(SecondSet):
+    for i in firstSet:
+       SecondSet.remove(i)
+print(SecondSet)

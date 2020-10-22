@@ -5,3 +5,6 @@
 
 import random
 import string
+random_letters = random.choices(string.ascii_uppercase+string.ascii_lowercase, k=5)
+final_string = "".join(random_letters)
+print(final_string)
