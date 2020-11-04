@@ -1,0 +1,8 @@
+1)This is test file
+2)Learning file handling
+3)How to handle text files
+4)How to read text files
+5)How to write text files
+6)How to read image files
+7)How to write image files
+8)How to use context manager.
