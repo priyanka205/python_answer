@@ -1,0 +1,39 @@
+
+The file "MerchandiseData.csv" contains inventory of fruits with following variables.
+Item,UnitCostPrice,Count,TotalSellPrice
+
+Step 01: 
+Calculate the following for each item before doing any programming.
+	TotalCostPrice
+	UnitSellPrice
+	Profit-LossAmount (if loss was incurred the value should be negative)
+
+and write it in a new file "MerchandiseData_Profit_and_Loss_Statement_Manual.csv" with following headers
+
+Item,UnitCostPrice,TotalCostPrice,Count,UnitSellPrice,TotalSellPrice,Profit-LossAmount
+
+
+Step 02:
+Write a python program to calculate what you calculated in Step01 
+	and create an output file "MerchandiseData_Profit_and_Loss_Statement_using_Python.csv"
+
+with following headers
+Item,UnitCostPrice,TotalCostPrice,Count,UnitSellPrice,TotalSellPrice,Profit-LossAmount
+
+
+Following are the requirements for writing python script:
+- use python 3.6 and higher
+- use no external libraries
+- use no functions (just a single plain python file)
+- write comment on blocks of code explaining what it is doing
+- keep the original file as it is
+- Create a new file named "MerchandiseData_Profit_and_Loss_Statement_using_Python.csv"  that contains the following
+	Item,UnitCostPrice,TotalCostPrice,Count,UnitSellPrice,TotalSellPrice,Profit-LossAmount
+
+
+Step 03:
+Compare the output from Step01 and Step02.
+Note: the results should be the same between two files that were generated manually vs programmatically. 
+
+
+
