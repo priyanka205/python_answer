@@ -3,7 +3,7 @@ import requests
 import csv
 
 source = requests.get("http://quotes.toscrape.com/").text
-soup = BeautifulSoup(source,'lxml')
+soup = BeautifulSoup(source,'lxml')# to make fine lxml
 # print(soup.prettify())
 # exit()
 # print(soup.prettify())
@@ -23,5 +23,7 @@ for q in quote:
     tags_joined = " ".join(required_tags)
     row_to_write = [str(required_quote) + "\t" + str(author) + "\t" + str(tags_joined)]
     csv_writer.writerow(row_to_write)
+    print(row_to_write)#to see on terminal
 
 file.close()
+# print(row_to_write) to print just a line
