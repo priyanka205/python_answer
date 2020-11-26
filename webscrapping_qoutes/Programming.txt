@@ -1,0 +1,14 @@
+
+Google[2]1,600,000,000JavaScript, TypeScriptC, C++, Go,[3] Java, Python, NodeBigtable,[4] MariaDB[5]The most used search engine in the world
+Facebook1,100,000,000JavaScript, FlowHack, PHP (HHVM), Python, C++, Java, Erlang, D,[6] XHP,[7] Haskell[8]MariaDB, MySQL,[9] HBase,  Cassandra[10]The most visited social networking site
+YouTube1,100,000,000JavaScriptC, C++, Python, Java,[11] Go[12]Vitess, BigTable, MariaDB[5][13]The most visited video sharing site
+Yahoo750,000,000JavaScriptPHPPostgreSQL, HBase,  Cassandra, MongoDB,[14]
+Amazon500,000,000JavaScriptJava, C++, Perl[15]PostgreSQL, RDS, RDS Aurora[16]Popular Internet shopping site
+Wikipedia475,000,000JavaScriptPHPMariaDB[17]"MediaWiki" is programmed in PHP; free online encyclopedia
+Twitter290,000,000JavaScriptC++, Java[18], Scala[19], RubyMySQL[20]Popular social network.
+Bing285,000,000JavaScriptC++, C#Microsoft SQL Server, Cosmos DBSearch engine from Microsoft.
+eBay285,000,000JavaScriptJava,[21] JavaScript,[22] Scala[23]Oracle DatabaseOnline auction house.
+MSN280,000,000JavaScriptC#Microsoft SQL ServerAn email client, for simple use. Previously known as "messenger", not to be confused with Facebook's messaging platform.
+LinkedIn260,000,000JavaScriptJava, JavaScript,[24] ScalaVoldemort[25]World's largest professional network.
+Pinterest250,000,000JavaScriptPython (Django),[26] ErlangMySQL, Redis [27]Search engine for ideas.
+WordPress.com240,000,000JavaScriptPHPMariaDB[28]Website manager software.
